@@ -6,7 +6,7 @@ on:
 
 jobs:
   do-the-job:
-    name: Terraform Cloud Workflow
+    name: print
     runs-on: ubuntu-latest
     steps:
       - name: print-name
