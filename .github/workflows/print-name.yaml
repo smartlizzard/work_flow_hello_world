@@ -1,0 +1,13 @@
+name: print-name
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  do-the-job:
+    name: Terraform Cloud Workflow
+    runs-on: ubuntu-latest
+    steps:
+      - name: print-name
+        run: echo "print-name"
