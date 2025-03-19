@@ -9,5 +9,7 @@ jobs:
     name: print
     runs-on: ubuntu-latest
     steps:
-      - name: print-name
-        run: echo "print-name"
+#      - name: print-name
+#        run: echo "print-name"
+    - name: Greet commenter
+      run: echo "Hello, thanks for commenting!"
